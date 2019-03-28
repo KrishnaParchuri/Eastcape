@@ -1854,12 +1854,6 @@ body {
 .cid-rlXsZSBmsx H1 {
   text-align: left;
 }
-.cid-rlXsZSBmsx .getQuote {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 .cid-rlXsZSBmsx .mbr-text,
 .cid-rlXsZSBmsx .mbr-section-btn {
   text-align: right;
@@ -1882,6 +1876,12 @@ body {
 }
 .cid-rlXzP0yHEg textarea.form-control {
   min-height: 188px;
+}
+.cid-rlXzP0yHEg .quote1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-item: center;
 }
 .cid-rlXzP0yHEg .input-group-btn {
   justify-content: center;
