@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
@@ -22,11 +22,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 3.6rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.76rem;
+  font-size: 6.8rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -63,9 +63,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.88rem;
-    font-size: calc( 1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.4rem;
+    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.76rem;
@@ -1862,16 +1862,16 @@ body {
   color: #ffffff;
 }
 .cid-rlXzP0yHEg {
-  background-color: #c1244a;
+  background-color: #a32745;
 }
 .cid-rlXzP0yHEg .form-control,
 .cid-rlXzP0yHEg .form-control:focus {
   background: #ffffff;
-  border: 1px solid #ffffff;
+  border: 1px solid #f5f1f1;
 }
 .cid-rlXzP0yHEg .form-container {
   transition: all .2s;
-  border: 1px solid #ffffff;
+  border: 1px solid #f5f1f1;
   padding: 1rem;
 }
 .cid-rlXzP0yHEg textarea.form-control {
@@ -1950,8 +1950,8 @@ body {
 .cid-rlXRewQTKe {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #cccccc;
-  background: linear-gradient(#cccccc, #efefef);
+  background-color: #b38989;
+  background: linear-gradient(#b38989, #efefef);
 }
 .cid-rlXRewQTKe .carousel-control {
   background: #000;
@@ -2154,8 +2154,8 @@ body {
 }
 .cid-rlXSrhCG5H {
   padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #231135;
+  padding-bottom: 15px;
+  background-color: #ffffff;
 }
 @media (max-width: 767px) {
   .cid-rlXSrhCG5H .content {
@@ -2219,4 +2219,10 @@ body {
     -webkit-justify-content: center;
     justify-content: center;
   }
+}
+.cid-rlXSrhCG5H H5 {
+  color: #232323;
+}
+.cid-rlXSrhCG5H P {
+  color: #232323;
 }
