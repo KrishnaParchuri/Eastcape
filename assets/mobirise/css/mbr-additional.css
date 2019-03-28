@@ -1858,6 +1858,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 .cid-rlXsZSBmsx .mbr-text,
 .cid-rlXsZSBmsx .mbr-section-btn {
