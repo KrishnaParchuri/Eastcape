@@ -1397,7 +1397,7 @@ body {
 }
 .cid-rmGcClLvUw .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: rgba(0, 0, 0, 0.7);
   transition: none;
   min-height: 77px;
 }

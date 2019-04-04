@@ -78,7 +78,7 @@
           "_styles": {
             ".navbar": {
               "padding": ".5rem 0",
-              "background": "@menuBgColor",
+              "background": "rgba(0, 0, 0, 0.7)",
               "transition": "none",
               "min-height": "77px"
             },
@@ -495,7 +495,9 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
